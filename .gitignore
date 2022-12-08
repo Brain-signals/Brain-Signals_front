@@ -1,0 +1,10 @@
+# System files and folder
+.DS_Store
+.python-version
+__pycache__/
+
+# Personnal things
+.env
+
+# Executables
+*.egg-info
