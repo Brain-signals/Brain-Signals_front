@@ -24,6 +24,7 @@ if nii_file is not None:
         f.write(nii_content)
     #volume = NII_to_3Darray('/Users/adriencombes/code/adriencombes/Brain-Signals/.data/processed_datasets/camcan_cc700/sub-CC110033_T1w.nii')
     volume = NII_to_3Darray(path)
-    print(volume.shape)
     fig = show_nii_2D(volume)
     st.pyplot(fig=None)
+
+    os.remove(path)
