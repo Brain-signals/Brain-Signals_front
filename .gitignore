@@ -5,6 +5,7 @@ __pycache__/
 
 # Personnal things
 .env
+.Jupyter_notebooks
 
 # Executables
 *.egg-info
